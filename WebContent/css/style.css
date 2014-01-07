@@ -1,0 +1,50 @@
+#container{
+	max-width:960px;
+	text-align:center;
+	display:block;
+	margin:100px auto;
+	
+}
+
+.clear:before, .clear:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+	
+.clear:after {
+	clear: both;
+}
+label{
+top: 7px;
+position: relative;
+}
+
+.form-group{
+min-height: 30px;
+}
+
+.row{
+	margin:0!important;
+}
+
+
+.selection{
+margin: 20px auto;
+display: block;
+width: 50%;
+border: 1px dotted;
+padding: 20px;
+}
+
+
+.status{
+
+	min-height: 40px;
+	background-color: #3276b1;
+	color: white;
+	padding: 10px;
+	text-align: center;
+
+}
